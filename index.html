@@ -307,7 +307,7 @@
       if (viewCenterY > r.yBottom) best = r.page;
     }
     currentPage = best;
-    indicator.textContent = `Trang ${currentPage} / ${totalPages}`;
+    indicator.textContent = `第${currentPage}页 / 共${totalPages}页`;
   }
 
   function scrollToPage(n) {
